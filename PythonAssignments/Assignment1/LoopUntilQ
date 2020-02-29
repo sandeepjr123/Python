@@ -1,0 +1,13 @@
+alphabets=['A','B','C','D','E','F','G','H','I','G','H','K','L','M','N','O','P','Q','S','T','R','U','V','W','X','Y','Z']
+userInp=str(input())
+
+userCap=userInp.upper()
+
+if userCap =='Q' or userCap =='quit':
+    print('You are terminated')
+else:
+ for x in alphabets:
+  print(x)
+  if x == userCap:
+    break
+	
